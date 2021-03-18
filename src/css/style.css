@@ -1,0 +1,81 @@
+body {
+    background-image: url("../assets/nikon_fe_full.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 1em;
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+/* Header Styles */
+header nav {
+    position: relative;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color:  #505050;
+  }
+  
+header ul li {
+    list-style: none;
+    display: inline;
+  }
+  
+header a {
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 0 25px;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
+header a:hover {
+    padding-bottom: 5px;
+    color: #FFFFFF;
+    text-shadow: 0 0 20px #FFFFFF;
+  }
+
+
+/* Main Content Styles */
+.content-card {
+    background-color: #505050B0;
+    border-radius: 15px;
+    color: whitesmoke;
+    max-width: 800px;
+    margin: 20px auto 20px;
+    padding: 2em 4em 2em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+.lenser-title {
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 10em;
+    font-style: sans-serif;
+    text-shadow: -2px 0px 10px black, 2px 0px 10px black;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto 180px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Interactive */
+.launch-lenser-app-button {
+    width: 115px;
+    height: 25px;
+    background: #00A000;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    line-height: 25px;
+}
