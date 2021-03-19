@@ -1,10 +1,17 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: whitesmoke
+}
+
 body {
     background-image: url("../assets/nikon_fe_full.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100%;
     font-size: 1em;
-    font-family: sans-serif;
     margin: 0;
   }
 
@@ -27,9 +34,7 @@ header ul li {
   
 header a {
     font-weight: 700;
-    font-family: sans-serif;
     margin: 0 25px;
-    color: whitesmoke;
     text-decoration: none;
   }
   
@@ -39,32 +44,26 @@ header a:hover {
     text-shadow: 0 0 20px #FFFFFF;
   }
 
+img {
+  max-width: 100%;
+}
 
 /* Main Content Styles */
 .content-card {
     background-color: #505050B0;
     border-radius: 15px;
-    color: whitesmoke;
     max-width: 800px;
     margin: 20px auto 20px;
     padding: 2em 4em 2em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
   }
 
 .lenser-title {
     background-color: transparent;
-    color: whitesmoke;
     font-size: 10em;
-    font-style: sans-serif;
     text-shadow: -2px 0px 10px black, 2px 0px 10px black;
     text-align: center;
     max-width: 800px;
     margin: 20px auto 180px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 /* Interactive */
@@ -74,7 +73,6 @@ header a:hover {
     background: #00A000;
     text-align: center;
     border-radius: 5px;
-    color: white;
     padding: 5px;
     font-weight: bold;
     line-height: 25px;
