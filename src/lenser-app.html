@@ -11,21 +11,21 @@
         <link rel="stylesheet" href="css/lenser.css">
     </head>
     <body>
-        <header-component></header-component>
+        <nav-bar-component></nav-bar-component>
         <div class="content-card">
-            <div class="lenser-app">
-                <div class="lenser-app-image">
-                    <img src="./assets/june_dunes.jpg" id="lenser-app-image" alt="Dog and Dune">
+            <div class="lenser-app-container">
+                <div class="crop-effect">
+                    <img src="./assets/june_dunes.jpg" id="lenser-crop-view" alt="Dog and Dune">
                 </div>
-                <div id="focal-len-control">
+                <div id="lenser-focal-len-control">
                     <p>
-                        <span id="focal-len-display"></span>mm
+                        <span id="lenser-focal-len-display"></span>mm
                     </p>
-                    <input type="range" min="24" max="300" value="50" id="focal-len-slider">
+                    <input type="range" min="24" max="300" value="24" id="lenser-focal-len-slider">
                 </div>
             </div>
         </div>
-        <script src="components/header.js" type="text/javascript" defer></script>
+        <script src="components/nav.js" type="text/javascript" defer></script>
         <script src="js/lenser.js" type="text/javascript" defer></script>
     </body>
 </html>

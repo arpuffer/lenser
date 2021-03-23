@@ -1,4 +1,4 @@
-class Header extends HTMLElement {
+class navBar extends HTMLElement {
     constructor() {
       super();
     }
@@ -18,5 +18,5 @@ class Header extends HTMLElement {
     }
   }
   
-  customElements.define('header-component', Header);
+  customElements.define('nav-bar-component', navBar);
   
